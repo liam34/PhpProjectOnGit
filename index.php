@@ -8,7 +8,7 @@
 </head>
 <body>
     <p>
-    hello world
+    Registration Complete!
     </p>
 </body>
 </html>

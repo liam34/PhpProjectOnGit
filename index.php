@@ -1,5 +1,5 @@
 <?php
-includes("include/config.php");
+include("includes/config.php");
 
 session_destroy();
 

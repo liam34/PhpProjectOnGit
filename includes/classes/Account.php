@@ -46,7 +46,7 @@ class Account {
                 //public static $firstNameCharacters = "Your first name must be between 2 and 25 characters";
                 //public static $usernameCharacters = "Your username must be between 5 and 25 characters";
         
-        private function insertUserDetails($un, $fn, $ln, $em, $pw) {
+            private function insertUserDetails($un, $fn, $ln, $em, $pw) {
             $encryptedPw = md5($pw); //password -> (md5 - long strings of numbers and letters)
             $profilePic = "assets/images/profile-pics/GodNeverFails.jpg";
             $date = date("Y-m-d");

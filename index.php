@@ -1,3 +1,11 @@
+<?php
+
+if(isset($_SESSION['$userLoggedIn'])) {
+    $userLoggedIn = $_SESSION['userLoggedIn'];
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

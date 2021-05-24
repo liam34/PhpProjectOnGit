@@ -51,7 +51,7 @@ class Account {
             $profilePic = "assets/images/profile-pics/GodNeverFails.jpg";
             $date = date("Y-m-d");
 
-            $result = mysqli_query($this->con, "INSERT INTO users VALUES ('', '$un', '$fn', '$ln', '$em, '$encryptedPw', $date', '$profilePic')");
+            $result = mysqli_query($this->con, "INSERT INTO users VALUES ('', '$un', '$fn', '$ln', '$em', '$encryptedPw', '$date', '$profilePic')");
 
             return $result;
         }

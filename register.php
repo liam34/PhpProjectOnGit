@@ -46,11 +46,12 @@ function getInputValue($name) {
                     <input id="password" name="loginPassword" type="password" placeholder="Your Password" required/>
                     </p>  
                     <button type="submit" name="loginButton">LOG IN</button>
-                    <div id="hasAccountText">
-                        <span class="hideLogin">Don't have an account yet? Signup here.</span> 
+                    <div class="hasAccountText">
+                        <span id="hideLogin">Don't have an account yet? Signup here.</span> 
                     </div>
                 </form>
-
+                <br>
+                <br>
                 <form id="registerForm" action="register.php" method="POST">
                     <h2>Create your free Account</h2>
                     <p>

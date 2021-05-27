@@ -106,3 +106,12 @@ html, body {
     line-height: 27px;
     width: 100%;
 }
+
+.hasAccountText span {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.hasAccountText {
+    text-align: center;
+}

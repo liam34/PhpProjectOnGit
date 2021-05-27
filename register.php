@@ -94,7 +94,7 @@ function getInputValue($name) {
                         <label for="password2">Confirm Password</label>
                         <input id="password2" name="password2" type="password" placeholder="Your Password" required/>
                     </p>  
-                    <button type="submit" name="registerButton">SIGN UP</button>
+                    <button type="submit" name="registerButton" >SIGN UP</button>
                 </form>
             </div>
          </div>

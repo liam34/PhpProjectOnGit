@@ -1,8 +1,8 @@
 <?php
-    session_start();
+    
     
     ob_start();
-
+    session_start();
     $timezone = date_default_timezone_set("America/Edmonton");
 
     $con = mysqli_connect("localhost", "root", "", "phpprojectdb1.2");

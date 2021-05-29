@@ -74,6 +74,11 @@ html, body {
     cursor: pointer;
 }
 
+#loginText {
+    padding: 45px;
+    display: table-cell;
+}
+
 #registerForm {
     display: none;
 }

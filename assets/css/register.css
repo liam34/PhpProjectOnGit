@@ -74,12 +74,6 @@ html, body {
     cursor: pointer;
 }
 
-#loginText {
-    padding: 4px;
-    display: table-cell;
-    
-}
-
 #registerForm {
     display: none;
 }
@@ -106,7 +100,7 @@ html, body {
 #loginContainer {
     width: 80%;
     margin: 0 auto;
-    padding: 45px;
+    padding: 75px;
     position: relative;
     max-width: 1024px;
     float: right;
@@ -115,6 +109,7 @@ html, body {
 
 #inputContainer h2 {
     text-align: center;
+    text-align: right;
 }
 
 #inputContainer input[type="text"],
@@ -127,5 +122,28 @@ html, body {
     height: 27px;
     line-height: 27px;
     width: 100%;
+}
+
+#loginText {
+    padding: 30px;
+    display: table-cell;
+   vertical-align: top;
+   padding-top: 120px;
+    
+}
+
+
+#loginText h1 {
+    color: #07d159;
+    font-size: 45px;
+    font-weight: bold;
+    
+}
+
+#loginText h2, ul {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    
 }
 

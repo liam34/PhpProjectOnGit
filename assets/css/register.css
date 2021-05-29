@@ -40,7 +40,7 @@ html, body {
 
 #inputContainer {
 
-    width: 400px;
+    width: 250px;
     padding: 45px;
 
 
@@ -75,8 +75,9 @@ html, body {
 }
 
 #loginText {
-    padding: 45px;
+    padding: 4px;
     display: table-cell;
+    
 }
 
 #registerForm {
@@ -105,9 +106,10 @@ html, body {
 #loginContainer {
     width: 80%;
     margin: 0 auto;
+    padding: 45px;
     position: relative;
     max-width: 1024px;
-    float: left;
+    float: right;
     border-right: 1px solid #999;
 }
 

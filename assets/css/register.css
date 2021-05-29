@@ -45,6 +45,7 @@ html, body {
     padding: 45px;
     position: relative;
     float: right;
+    padding-top: 7em;
 
 
 }
@@ -78,11 +79,6 @@ html, body {
 }
 
 
-#registerForm, 
-#loginForm {
-    display: none;
-}
-
 #inputContainer button:active {
     
     transform: translateY(4px);
@@ -105,7 +101,7 @@ html, body {
 #loginContainer {
     width: 80%;
     margin: 0 auto;
-    padding: 75px;
+    padding: 19px;
     position: relative;
     max-width: 1024px;
     float: right;
@@ -129,26 +125,38 @@ html, body {
     width: 100%;
 }
 
+#registerForm, 
+#loginForm {
+    display: none;
+}
+
 #loginText {
-    padding: 85px;
+    padding: 64px;
     display: table-cell;
-   vertical-align: top;
-   padding-top: 90px;
-    
+    vertical-align: top;
+    padding-top: 80px;
+    color: #fff;
 }
 
 
 #loginText h1 {
     color: #07d159;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: bold;
     
 }
 
-#loginText h2, ul {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    
+#loginText h2 {
+    margin: 35px 0;
 }
 
+#loginText ul {
+    padding: 0;
+}
+
+#loginText li {
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+    
+}

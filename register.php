@@ -137,7 +137,7 @@ function getInputValue($name) {
          </div>
          <div id="loginText">
                 <h1 style=color: #07d159;>
-                <h1>Get great music, right now</h1>
+                <h1>Get great music, <br>right now</h1>
                 <h2>Listen to loads of songs from free</h2>
                 <ul>
                     <li>Discover music you'll fall in love with </li>

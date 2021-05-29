@@ -38,10 +38,13 @@ html, body {
    color:    #fff;
 }
 
+/* container align to right*/
 #inputContainer {
 
-    width: 250px;
+    width: 400px;
     padding: 45px;
+    position: relative;
+    float: right;
 
 
 }
@@ -74,7 +77,9 @@ html, body {
     cursor: pointer;
 }
 
-#registerForm {
+
+#registerForm, 
+#loginForm {
     display: none;
 }
 
@@ -109,7 +114,7 @@ html, body {
 
 #inputContainer h2 {
     text-align: center;
-    text-align: right;
+    
 }
 
 #inputContainer input[type="text"],
@@ -125,10 +130,10 @@ html, body {
 }
 
 #loginText {
-    padding: 30px;
+    padding: 85px;
     display: table-cell;
    vertical-align: top;
-   padding-top: 120px;
+   padding-top: 90px;
     
 }
 

@@ -14,13 +14,15 @@ else {
 
 ?>
 
-
+<html>
 <head>
-    <title>Document</title>
+    <title>Welcome to Slotify</title>
 </head>
 <body>
-    <p>
-    Registration Complete!
-    </p>
+   
+    <div id="nowPlayingBarContainer">
+
+    </div>
+
 </body>
 </html>

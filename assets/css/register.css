@@ -100,7 +100,7 @@ html, body {
 #loginContainer {
     width: 80%;
     margin: 0 auto;
-    padding: 75px;
+    padding: 45px;
     position: relative;
     max-width: 1024px;
     float: right;
@@ -125,10 +125,10 @@ html, body {
 }
 
 #loginText {
-    padding: 30px;
+    padding: 45px;
     display: table-cell;
-   vertical-align: top;
-   padding-top: 120px;
+    vertical-align: top;
+    padding-top: 120px;
     
 }
 
@@ -147,3 +147,8 @@ html, body {
     
 }
 
+#loginContainer Form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }

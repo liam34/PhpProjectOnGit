@@ -1,10 +1,8 @@
 <?php
 include("includes/config.php");
 
-//session clear
-//session_destroy();
 
-if(isset($_SESSION['$userLoggedIn'])) {
+if(isset($_SESSION['userLoggedIn'])) {
     $userLoggedIn = $_SESSION['userLoggedIn'];
 }
 

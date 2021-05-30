@@ -102,11 +102,7 @@ html, body {
 #loginContainer {
     width: 80%;
     margin: 0 auto;
-<<<<<<< HEAD
-    padding: 45px;
-=======
     padding: 19px;
->>>>>>> da7f00f1c8561d2c840ba4ec7a855dbc674c84c0
     position: relative;
     max-width: 1024px;
     float: right;
@@ -136,19 +132,11 @@ html, body {
 }
 
 #loginText {
-<<<<<<< HEAD
-    padding: 45px;
-    display: table-cell;
-    vertical-align: top;
-    padding-top: 120px;
-    
-=======
     padding: 64px;
     display: table-cell;
     vertical-align: top;
     padding-top: 80px;
     color: #fff;
->>>>>>> da7f00f1c8561d2c840ba4ec7a855dbc674c84c0
 }
 
 
@@ -175,16 +163,8 @@ html, body {
     
 }
 
-<<<<<<< HEAD
-#loginContainer Form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-=======
 #inputContainer .errorMessage {
     color: #07d159;
     font-size: 12px;
     display: block;
 }
->>>>>>> da7f00f1c8561d2c840ba4ec7a855dbc674c84c0

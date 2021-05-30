@@ -38,10 +38,14 @@ html, body {
    color:    #fff;
 }
 
+/* container align to right*/
 #inputContainer {
 
-    width: 250px;
+    width: 400px;
     padding: 45px;
+    position: relative;
+    float: right;
+    padding-top: 7em;
 
 
 }
@@ -74,9 +78,6 @@ html, body {
     cursor: pointer;
 }
 
-#registerForm {
-    display: none;
-}
 
 #inputContainer button:active {
     
@@ -87,6 +88,7 @@ html, body {
     color: #a0a0a0;
     font-size: 13px;
     margin-top: 15px;
+    display: block;
 }
 
 #loginContainer * {
@@ -100,7 +102,11 @@ html, body {
 #loginContainer {
     width: 80%;
     margin: 0 auto;
+<<<<<<< HEAD
     padding: 45px;
+=======
+    padding: 19px;
+>>>>>>> da7f00f1c8561d2c840ba4ec7a855dbc674c84c0
     position: relative;
     max-width: 1024px;
     float: right;
@@ -109,7 +115,7 @@ html, body {
 
 #inputContainer h2 {
     text-align: center;
-    text-align: right;
+    
 }
 
 #inputContainer input[type="text"],
@@ -124,31 +130,61 @@ html, body {
     width: 100%;
 }
 
+#registerForm, 
+#loginForm {
+    display: none;
+}
+
 #loginText {
+<<<<<<< HEAD
     padding: 45px;
     display: table-cell;
     vertical-align: top;
     padding-top: 120px;
     
+=======
+    padding: 64px;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 80px;
+    color: #fff;
+>>>>>>> da7f00f1c8561d2c840ba4ec7a855dbc674c84c0
 }
 
 
 #loginText h1 {
     color: #07d159;
-    font-size: 45px;
+    font-size: 60px;
     font-weight: bold;
     
 }
 
-#loginText h2, ul {
-    color: white;
+#loginText h2 {
+    margin: 35px 0;
+}
+
+#loginText ul {
+    padding: 0;
+}
+
+#loginText li {
     font-size: 25px;
-    font-weight: bold;
+    padding: 15px 85px;
+    list-style-type: none;
+    background: url(../images/icons/checkmark3.png) no-repeat;
     
 }
 
+<<<<<<< HEAD
 #loginContainer Form {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
   }
+=======
+#inputContainer .errorMessage {
+    color: #07d159;
+    font-size: 12px;
+    display: block;
+}
+>>>>>>> da7f00f1c8561d2c840ba4ec7a855dbc674c84c0

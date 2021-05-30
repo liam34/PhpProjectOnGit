@@ -67,8 +67,9 @@ function getInputValue($name) {
                     <h2>Login to your Account</h2>
                     <p>
                     <?php echo $account->getError(Constants::$loginFailed); ?>
+                    <span class="errorMessage">Your username or password was incorrect</span>
                     <label for="loginUsername">Username</label>
-                        <input id="loginUsername" name="loginUsername" type="text" placeholder="John Doe" required/>
+                    <input id="loginUsername" name="loginUsername" type="text" placeholder="John Doe" value="<?php getInputValue('loginUsername') ?>" required/>
                     </p>
                     <p>
                     <label for="loginPassword">Password</label>

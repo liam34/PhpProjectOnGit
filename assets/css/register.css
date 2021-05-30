@@ -88,6 +88,7 @@ html, body {
     color: #a0a0a0;
     font-size: 13px;
     margin-top: 15px;
+    display: block;
 }
 
 #loginContainer * {
@@ -155,10 +156,15 @@ html, body {
 }
 
 #loginText li {
-    font-size: 20px;
-    padding: 10px;
+    font-size: 25px;
+    padding: 15px 85px;
     list-style-type: none;
-    background: url(..images/icons/checkmark2.png) no-repeat;
+    background: url(../images/icons/checkmark3.png) no-repeat;
     
 }
 
+#inputContainer .errorMessage {
+    color: #07d159;
+    font-size: 12px;
+    display: block;
+}

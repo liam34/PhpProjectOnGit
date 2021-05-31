@@ -1,4 +1,5 @@
 <?php
+
 include("includes/config.php");
 
 
@@ -15,11 +16,14 @@ else {
 <html>
 <head>
     <title>Welcome to Slotify</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
    
     <div id="nowPlayingBarContainer">
+        <div>
 
+        </div>
     </div>
 
 </body>

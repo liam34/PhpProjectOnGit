@@ -1,10 +1,9 @@
 <?php
+
 include("includes/config.php");
 
-//session clear
-//session_destroy();
 
-if(isset($_SESSION['$userLoggedIn'])) {
+if(isset($_SESSION['userLoggedIn'])) {
     $userLoggedIn = $_SESSION['userLoggedIn'];
 }
 
@@ -14,13 +13,18 @@ else {
 
 ?>
 
-
+<html>
 <head>
-    <title>Document</title>
+    <title>Welcome to Slotify</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-    <p>
-    Registration Complete!
-    </p>
+   
+    <div id="nowPlayingBarContainer">
+        <div>
+
+        </div>
+    </div>
+
 </body>
 </html>

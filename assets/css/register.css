@@ -102,11 +102,7 @@ html, body {
 #loginContainer {
     width: 80%;
     margin: 0 auto;
-<<<<<<< HEAD
-    padding: 45px;
-=======
     padding: 19px;
->>>>>>> da7f00f1c8561d2c840ba4ec7a855dbc674c84c0
     position: relative;
     max-width: 1024px;
     float: right;

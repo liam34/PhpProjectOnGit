@@ -66,7 +66,7 @@ function getInputValue($name) {
                 <form id="loginForm" action="register.php" method="POST"><! --Comment -->
                     <h2>Login to your Account</h2>
                     <p>
-                    <span class="errorMessage">Your username or password was incorrect</span>
+                    
                     <?php echo $account->getError(Constants::$loginFailed); ?>
                     
                     <label for="loginUsername">Username</label>

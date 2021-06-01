@@ -17,9 +17,9 @@ function getInputValue($name) {
 
 ?>
 
-<!DOCTYPE html>
 
-<html lang="en">
+
+<html>
 <head>
     
     <title>Welcome to Slotify</title>

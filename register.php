@@ -17,9 +17,9 @@ function getInputValue($name) {
 
 ?>
 
-<!DOCTYPE html>
 
-<html lang="en">
+
+<html>
 <head>
     
     <title>Welcome to Slotify</title>
@@ -30,7 +30,6 @@ function getInputValue($name) {
 
     <script src="assets/js/register.js"></script>
 </head>
-
 <body>
     <?php
 
@@ -137,16 +136,16 @@ function getInputValue($name) {
             </div>
            
          </div>
-         <div id="loginText">
-                <h1 style=color: #07d159;>
-                <h1>Get great music, <br>right now</h1>
-                <h2>Listen to loads of songs from free</h2>
-                <ul>
-                    <li>Discover music you'll fall in love with </li>
-                    <li>Create your won playlist </li>
-                    <li>Follow artists to keep up to date</li>
-                </ul>
-            </div>
-    </div>
+                    <div id="loginText">
+                        <h1 style=color: #07d159;>
+                        <h1>Get great music, <br>right now</h1>
+                        <h2>Listen to loads of songs from free</h2>
+                        <ul>
+                            <li>Discover music you'll fall in love with </li>
+                            <li>Create your won playlist </li>
+                            <li>Follow artists to keep up to date</li>
+                        </ul>
+                    </div>
+         </div>
 </body>
 </html>

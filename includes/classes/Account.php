@@ -52,7 +52,6 @@ class Account {
                         
                 }
             
-      
                 //public static $passswordDoNotMatch = "Your passwords dont match!";
                 //public static $passswordNotAlphanumeric = "Your passwords can only contains number and letters!";
                 //public static $passswordCharacters = "Your password combination must be 5 and 30 characters";

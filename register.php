@@ -44,7 +44,7 @@ function getInputValue($name) {
     </script>';
     }
     else {
-        echo ' <script>
+        echo '<script>
         $(document).ready(function(){
             
                 $("#loginForm").show();

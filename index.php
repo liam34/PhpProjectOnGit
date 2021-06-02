@@ -16,7 +16,7 @@ else {
 <html>
 <head>
     <title>Welcome to Slotify</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 </head>
 <body>
    

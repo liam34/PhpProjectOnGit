@@ -211,10 +211,9 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    
 }
- /*--------------------------------------------------------------
-Album
- --------------------------------------------------------------*/ 
+ /*            Album            */ 
 .entityInfo {
     padding: 40px 0 10px;
     display: inline-block;

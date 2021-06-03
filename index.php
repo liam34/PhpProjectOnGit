@@ -1,146 +1,44 @@
-<?php
 
-include("includes/config.php");
+ <?php include("includes/header.php");?>
+
+    <h1 class="pageHeadingBig">You Might Also Like</h1>
+
+    <div class="gridViewContainer">
+
+        <?php
+
+            $albumQuery = mysqli_query($con, "SELECT * FROM albums ORDER BY RAND() LIMIT 10");
+
+            while($row = mysqli_fetch_array($albumQuery)) {
+
+               
 
 
-if(isset($_SESSION['userLoggedIn'])) {
-    $userLoggedIn = $_SESSION['userLoggedIn'];
-}
+                echo "<div class='gridViewItem'>
 
-else {
-    header("Location: register.php");
-}
+                        <a href='albums.php?id=" . $row['id'] . "'>
 
-?>
+                                <img src='" . $row['artworkPath'] . "'>
 
-<html>
-<head>
-    <title>Welcome to Slotify</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-</head>
-<body>
-
-    <div id="mainContainer">
-        <div id="topContainer">
-         <div id="navBarContainer">
-            <nav class="navBar">
-
-                <a href="index.php" class="logo">
-                <img src="assets/images/icons/logo.png" alt="logo">
-                </a>
-                    
-                <div class="group">
-                    <div class="navItem">
-                        <a href="search.php" class="navItemLink">search
-                            <img src="assets/images/icons/search.png" class="icon" alt="search">
-                        </a>
-                    </div>
-                </div>
-
-                <div class="group">
-                <div class="navItem">
-                        <a href="browse.php" class="navItemLink">Browse</a>
-                    </div>
-                    <div class="navItem">
-                        <a href="yourMusic.php" class="navItemLink">Your Music</a>
-                    </div>
-                    <div class="navItem">
-                        <a href="profile.php" class="navItemLink">search</a>
-                    </div>
-                </div>
-
-            </nav>
-         </div>
-          </div>
-            <div id="nowPlayingBarContainer">
-                <div id="nowPlayingBar">
-
-                    <div id="nowPlayingLeft">
-                        <div class="content">
-                            <span class="albumlink">
-                                <img src="https://jooinn.com/images/square-4.jpg" class="albumArtwork">
-                            </span>
-
-                            <div class="trackInfo">
                             
-                                <span class="trackName">
-                                    <span>happy birthday!</span>
-                                </span>
+                                <div class='gridViewInfo'>"
 
-                                <span class="artistName">
-                                    <span>liam kent</span>
-                                </span>
-                            
-                            </div>
-                        </div>
-                    </div>
+                                    . $row['title'] .
 
-                    <div id="nowPlayingCenter">
-                        <div class="content playerControls">
-                            <div class="buttons">
-                                <button class="controlButton shuffle" title="shuffle button">
-                                    <img src="assets/images/icons/shuffle.png" alt="shuffle">
-                                </button>
+                                "</div>
+                             </a>
 
-                                <button class="controlButton previous" title="previous button">
-                                    <img src="assets/images/icons/previous.png" alt="previous">
-                                </button>
+                        </div>";
 
-                                <button class="controlButton play" title="play button">
-                                    <img src="assets/images/icons/play.png" alt="play">
-                                </button>
 
-                                <button class="controlButton pause" title="pause button" style="display: none;">
-                                    <img src="assets/images/icons/pause.png" alt="pause">
-                                </button>
+                    }
 
-                                <button class="controlButton next" title="next button">
-                                    <img src="assets/images/icons/next.png" alt="next">
-                                </button>
 
-                                <button class="controlButton repeat" title="repeat button">
-                                    <img src="assets/images/icons/repeat.png" alt="repeat">
-                                </button>
-                            </div>
+         ?>  
 
-                            <div class="playbackBar">
-                                <span class="progressTime current">0.00</span>
 
-                                <div class="progressBar">
-                                    <div class="progressBarBG">
-                                        <div class="progressBar"></div>
-                                    </div>
-                                </div>
-
-                                <span class="progressTime remaining">0.00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="nowPlayingRight">
-                        <div class="volumeBar">
-                            <button class="controlButton" title="Volume Button">
-                                <img src="assets/images/icons/volume.png" alt="Volume">
-                            </button>
-
-                            <div class="progressBar">
-                                    <div class="progressBarBG">
-                                        <div class="progressBar"></div>
-                                    </div>
-                                </div>
-
-                        </div>
-                    </div>
+    </div>
 
 
 
-
-                </div>
-            </div>
-            
-</div>
-       
-
-</body>
-</html>
+ <?php include("includes/footer.php");?>

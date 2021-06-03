@@ -172,10 +172,12 @@
      letter-spacing: 1px;
      position: relative;
  }
+
  .navItemLink {
      color: #a0a0a0;
-     text-decoration: none;
+     text-decoration: none;  
  }
+
  .navItemLink:hover {color: #fff;}
  .navItemLink .icon {
     position: absolute;
